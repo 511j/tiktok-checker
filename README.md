@@ -1,1 +1,1 @@
-# tiktok-checker
+# Simple Tiktok checker
