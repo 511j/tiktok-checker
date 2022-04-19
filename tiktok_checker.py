@@ -34,8 +34,6 @@ while True:
 
     if (response.status_code == 200):
         print(Fore.RED + f"Unavailable >>{Fore.WHITE} {username}")
-    if (response.status_code == 301):
-        print(Fore.RED + f"Banned >>{Fore.WHITE} {username}")
     elif (response.status_code == 404):
         print(Fore.GREEN + f"Available >>{Fore.WHITE} {username}")
         messagebox.showinfo("#lord4tb Tiktok Checker",f"Available user >> {username}")
